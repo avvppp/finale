@@ -50,7 +50,7 @@ header{
   background-image: url('src/bg.jpg');
   background-size: cover;
   background-position: center;
-  color: #c46923;
+  color: #1c0f95;
   font-size: 50px;
   text-align: center;
   text-decoration: none;
@@ -66,10 +66,10 @@ header{
 
 .card {
   width: 300px;
-  border: 1px solid #ddd;
+  border: 1px solid #293873;
   border-radius: 10px;
   overflow: hidden;
-  background-color: #fff;
+  background-color: #6e8fd0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   margin: 20px;
@@ -88,8 +88,8 @@ header{
 }
 
 .button {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #00eaff;
+  color: rgb(13, 49, 19);
   border: none;
   padding: 10px 20px;
   text-align: center;
@@ -112,5 +112,5 @@ header{
 }
 
 footer{
-  background-color: #36138e;
+  background-color: #9b9be7;
 }
