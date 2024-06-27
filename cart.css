@@ -1,0 +1,151 @@
+.logo {
+    width: 40px;
+    height: 40px;
+    margin: 10px 0 0 10px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.menu-elements {
+    color: #09151e;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0px;
+}
+
+.main-img {
+    display: inline-block;
+    width: 100%;
+    background-image: url('https://sotni.ru/wp-content/uploads/2023/08/gory-8.webp');
+    background-size: cover;
+    background-position: center;
+    color: #030401;
+    font-size: 50px;
+    text-align: center;
+    line-height: 250px;
+    text-decoration: none;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+}
+
+.price-btn {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.price {
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #6337d4;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.cart-container {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.purchase-form {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.purchase-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.purchase-form input {
+    width: calc(100% - 24px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.purchase-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.purchase-form button:hover {
+    background-color: #45a049;
+}
